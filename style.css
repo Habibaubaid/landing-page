@@ -1,0 +1,805 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    background-image: url(https://colibriwp.com/blog/wp-content/uploads/2020/06/boris-stefanik-wxJscL5ZzDA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 646px; 
+    /* padding: 10px; */
+    
+}
+nav{
+    padding: 4px 15px 4px 5px;
+    height: 100px;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    background-color: black;
+    z-index: 1000;
+}
+
+.logo, .tabs{
+    display: flex;
+}
+.logo{ 
+    width: 35%;
+    font-size: 4em;
+    color: white;
+    padding-right:590px ;
+}
+.logo span{
+    color: rgb(23, 238, 23);
+}
+.tabs{
+    width: 35%;
+    font-size: 40px;
+    padding-top: 10px;
+   margin: 15px 30px 25px 70px;
+
+}
+.tabs a{ 
+    color: white;
+    font-size: 30px;
+    margin: 9px;
+    text-decoration: none;  
+
+}
+
+.tabs a:hover{
+    color: rgb(23, 238, 23);
+    font-size: 35px;
+}
+
+.parent{
+     height: 540px;
+     padding-top: 100px;
+}
+.child{
+    display: inline-block;
+}
+ .child1, .child2{
+    display: inline-block;
+
+ }
+ .child1{
+    padding-left: 58px;
+ }
+ .child1 h1{
+    color: beige;
+    font-size: 60px;
+    margin-bottom: 30px;
+
+ }
+ .child1 h1 span{
+    color: rgb(90, 88, 88);
+ }
+ .child1 p{
+    font-size: large;
+    color: rgb(90, 88, 88);
+    margin-bottom: 30px;
+ }
+ .btn{
+    background-color: transparent;
+    color: rgb(23, 238, 23);
+    border: 2px solid rgb(23, 238, 23);
+    padding: 20px;
+    margin: 15px;
+    font-size: large;
+    border-radius: 5px;
+
+ }
+
+ .btn:hover{
+   color: white;
+    background-color: rgb(23, 238, 23);
+ }
+ .but{
+    background-color: rgb(23, 238, 23);
+    color: white;
+    padding: 20px;
+    margin: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+ }
+ .but:hover{
+    background-color: transparent;
+    border: 2px solid rgb(23, 238, 23);
+    color:rgb(23, 238, 23);
+ }
+ .child2{
+    height:500px ;
+    width: 30%;
+    padding-left: 70px;
+    padding-top: 40px;
+ }
+ .child2 img{
+    width: 400px;
+    height: 400px;
+    position:static;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+ }
+ .main{
+   height: 700px;
+ }
+ .parent-a{
+    height: 680px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 40px 40px;
+ }
+ .heading h1{
+    font-size: 65px;
+    padding-left: 400px;   
+ }
+ .heading h1 span{
+    color: rgb(23, 238, 23);
+ }
+ .heading p{
+    color: grey;
+    padding-left: 300px;
+    font-size:20px ;
+ }
+ .child1a{
+    flex: 1;
+ }
+ .child1a img{
+    width: 40vw;
+    height: 65vh;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+ }
+
+  .child2a{
+    flex: 1;
+  }
+  .child2a h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+  } 
+
+  .child2a p{
+    font-size: 20px;
+    color: grey;
+    margin-bottom: 15px;
+
+  } 
+  .container{
+   height: 700px;
+  }
+
+  .parent-b{
+    height: 680px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 60px 80px;
+ }
+
+  .child1b{
+   flex: 1;
+   padding-left: 30px;
+  }
+  .child1b h1{
+   font-size: 60px;
+   color: rgb(70, 68, 68);
+  }
+  .child1b p{
+   font-size: 20px;
+   color: grey;
+  }
+
+  .child2b{
+   flex: 1;
+  }
+  .child2b img{
+   width: 40vw;
+    height: 65vh;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+  }
+  .para{
+   height: 300px;
+   margin-top: 100px;
+  }
+
+  .para h1{
+   font-size: 60px;
+   color: rgb(70, 68, 68);
+  }
+  .para p{
+   font-size: 20px;
+   color: grey;
+  }
+
+
+
+
+
+   .imp{
+   height: 700px;
+   background-color: black;
+ }
+
+ .parent-c{
+    height: 680px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 40px 40px;
+ }
+
+ 
+ .heading2 h1{
+    font-size: 65px;
+    padding-left: 400px;
+    color: rgb(87, 82, 82);   
+ }
+ .heading2 h1 span{
+    color: rgb(70, 68, 68);
+ }
+ .heading2 p{
+    color: grey;
+    padding-left: 300px;
+    font-size:20px ;
+ }
+ .child1c{
+    flex: 1;
+ }
+ .child1c img{
+    width: 28vw;
+    height: 65vh;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+ }
+
+  .child2c{
+    flex: 1;
+  }
+  .child2c h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: white;
+  } 
+
+  .child2c p{
+    font-size: 20px;
+    color: grey;
+    margin-bottom: 15px;
+
+  } 
+
+  .build{
+   background-image: url(https://media.istockphoto.com/id/1331100622/photo/view-of-buildings-streets-beautiful-in-various-angles-in-dubai.jpg?s=612x612&w=0&k=20&c=M5GXmSOPo8VljM06CIJqKRgAlEPZkqwmNP-_rtzScec=);
+   background-size: cover;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   height: 500px;
+   padding-top: 100px;
+  }
+  .build h1{
+   padding-left: 400px;
+   font-size: 70px;
+   color: white;
+  }
+  .build p{
+   font-size: 20px;
+   padding-left: 260px;
+   color: rgb(70, 68, 68);
+  }
+  .build .but{
+   margin-left: 600px;
+  }
+
+
+  .app{
+   height: 700px;
+   padding: 60px;
+   padding-left: 150px;
+  }
+  .app h1{
+   font-size: 60px;
+   color: rgb(23, 238, 23);
+   padding-left: 400px;
+   margin-bottom: 50px;
+  }
+  .app h1 i{
+   color: black;
+  }
+  .hexagon{
+   height: 200px;
+  }
+
+  .hexagon img{
+   height: 250px;
+   width: 250px;
+   clip-path: polygon(20% 0%, 80% 0%, 100% 23%, 100% 74%, 80% 100%, 20% 100%, 0 76%, 0 23%);
+   border: 3px solid black;
+  }
+
+  .hub{
+   height: 700px;
+   background-image: url(https://colibriwp.com/blog/wp-content/uploads/2020/06/boris-stefanik-wxJscL5ZzDA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+  }
+  .parent-d{
+   height: 600px;
+   display: flex;
+  }
+  .form{
+   height: 600px;
+   width: 600px;
+   background-color: black;
+   padding: 60px;
+   
+  }
+  .contact{
+   height: 600px;
+   width: 600px; 
+   background-color: white;
+   padding: 60px;
+  }
+
+  .form h1{
+   color: white;
+   font-size: 40px;
+   margin-bottom: 20px;
+  }
+
+  .form form .value{
+   color: rgb(90, 88, 88);
+   font-size: 20px;
+  }
+  .form form input{
+   background-color: transparent;
+   padding:7px 300px 2px 2px;
+   border: none;
+   border-bottom:2px solid rgb(90, 88, 88);
+   margin-bottom: 30px;
+  }
+
+  .form form .message{
+   padding: 30px 300px 2px 2px;
+   border:none;
+   border-bottom:2px solid rgb(90, 88, 88);
+   margin-bottom: 30px;
+   background-color: transparent;
+  }
+
+  .form form .but{
+   margin-left: 100px;
+   padding: 20px;
+  }
+  .contact p{
+   color: rgb(70, 68, 68);
+   font-size: 20px;
+   margin: 5px;
+   margin-bottom: 30px;
+  }
+  .contact p span{
+   color: rgb(70, 68, 68);
+   font-size: 20px;
+   font-weight: bold;
+  }
+  .contact i{
+   color: black;
+   font-size: 20px;
+   margin-top: 5px;
+   padding-right: 20px;
+  }
+  footer{
+   background-color: black;
+   padding: 50px;
+   margin-bottom: 60px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+  }
+  footer h1{
+   color: white;
+   font-size: 40px;
+   padding-right: 70px;
+   padding-left: 22px;
+  }
+  footer h2{
+   color: white;
+   font-size: 25px;
+   padding:20px 70px 0 40px;
+
+  }
+  footer h2:hover{
+   font-size: 30px;
+   padding-left:60px;
+   cursor: pointer;
+  }
+  footer h2 i{
+   color: rgb(23, 238, 23);
+   font-size: 25px;
+   padding-right: 5px;
+  }
+  .end{
+   background-color: black;
+   padding: 40px;
+
+  }
+  .end h1{
+   color: white;
+   font-size: 35px;
+   padding-left: 270px;
+  }
+  .end h1 span{
+   color: rgb(23, 238, 23);
+  }
+  @media(max-width:1120px){
+   header{
+      height: 1200px;
+   }
+   .app{
+      height: 1300px;
+      padding: 30px;
+   }
+   .main,.imp{
+      height: 760px;
+   }
+   nav{
+     height:300px;  
+     display: block;    
+   }
+   .tabs{
+      display: block;
+   }
+   
+   .parent{
+      padding-top: 350px;
+   }
+   .container{
+      height:800px ;
+   }
+   .hub{
+      height: 1300px;
+   }
+   .parent-d{
+      display: block;
+   }
+   
+  }
+  @media (max-width:1090px){
+   .child1b, .child3b{
+      margin-top: 300px;
+   }
+   .app{
+      height: 1700px;
+      padding: 30px;
+   }
+  }
+  @media(max-width:1050px){
+   .child1b, .child3b{
+      margin-top: 280px;
+   }
+   .container{
+      height:950px ;
+   }
+  }
+   @media(max-width:980px){
+   .child1b, .child3b{
+      margin-top: 280px;
+   }
+   .container{
+      height:1000px ;
+   }
+  }
+   @media(max-width:920px){
+   .child1b,.child3b{
+      margin-top: 280px;
+   }
+   .container{
+      height:1100px ;
+   }
+   footer{
+      display: block;
+   }
+  }
+   @media(max-width:835px){
+      .app{
+         height: 2000px;
+      }
+   }
+
+  @media(max-width:810px){
+   header{
+      height: 1300px;
+   }
+   .build h1{
+      padding-left: 100px;
+   }
+   .build p{
+      padding-left: 100px;
+   }
+   .build .but{
+      margin-left: 100px;
+   }
+   .main, .imp{
+      height: 900px;
+   }
+   .parent-a, .parent-c{
+      margin-top: 45px;
+   }
+   .child1-a, .child2-a{
+      display: block;
+   }
+
+   .heading h1,.heading2 h1, .heading2 p{
+      padding-left: 300px;
+   }
+  }
+  .app{
+   height: 1300px;
+  }
+  
+   @media(max-width:780px){
+      .app{
+         height: 1800px;
+      }
+      .app h1{
+         padding-left: 50px;
+      }
+   }
+  
+  @media(max-width:720px){
+   .child2b img{
+     width: 200px;
+     height: 300px;
+   }
+   .para{
+      height: 400px;
+      padding: 0;
+      
+   }
+   .para h1{
+     margin-top: 10px;
+     font-size: 50px;
+   }
+   .para p{
+     margin-top: 10px;
+     font-size: 20px;
+   }
+  }
+  @media(max-width:700px){
+   .hub{
+      padding: 10px;
+   }
+  }
+  @media(max-width:690px){
+   .main, .imp{
+      display:block;
+      height: 1200px;
+   }
+   .parent-a, .parent-c{
+      margin-top: 150px;
+   }
+   .heading h1, .heading2 h1, .heading2 p{
+      padding-left: 100px;
+   }
+   .child1a img{
+      display: block;
+
+   }
+   .parent-a{
+      display: flex;
+   }
+   
+  }
+  @media(max-width:640px){
+   .child2b img{
+      width: 160px;
+      height: 250px;
+   }
+   .container{
+      height: 1200px;
+   }
+   .child2a{
+      flex: none;
+   }
+   .child2b{
+      flex: none;
+   }
+   .form{
+      width: 500px;
+      padding: 30px;
+   }
+   .contact{
+       width: 500px;
+      padding: 30px;
+   }
+  }
+   @media(max-width:610px){
+   .child2b img{
+      width: 130px;
+      height: 200px;
+      }
+   }
+   @media(max-width:600px){
+      .child1a img, .child3a img{
+         width: 300px;
+         height: 300px;
+   }
+   .main {
+      height: 1760px;
+   }
+   .parent-a{
+      margin-top: 450px;
+   }
+   .imp{
+      height: 1450px;
+   }
+   .parent-c{
+      margin-top: 350px;
+   }
+   .build{
+      height: 700px;
+   }
+   
+
+   }
+    @media(max-width:580px){
+      .app{
+         height: 3300px;
+      }
+    }
+
+   @media(max-width:560px){
+      .child1a img{
+         width: 250px;
+         height: 250px;
+   }
+   .main{
+      height: 1760px;
+   }
+   .para{
+      height: 400px;
+      padding: 0;
+   }
+   .para h1{
+      margin: 0;
+   }
+   .build{
+      height: 600px;
+   }
+   
+    
+   .parent-a{
+      margin-top: 450px;
+   }
+   .child2b, .child2a{
+     display: block;
+   }
+   .child2b img{
+     width: 100px;
+     height: 150px;
+   }
+
+   }
+   @media(max-width:520px){
+      .form{
+      width: 440px;
+      padding: 20px;
+   }
+   .contact{
+       width: 440px;
+      padding: 20px;
+   }
+   }
+   @media(max-width:505px){
+      .main,.imp{
+      height: 1900px;
+   }
+   .parent-a{
+      margin-top: 530px;
+   }
+   .child1a img{
+      padding: 0;
+   }
+   .para{
+      margin-top: 10px;
+      height: 500px;
+   }
+   .parent-c{
+      margin-top: 50px;
+   }
+
+   }
+  @media(max-width:500px){
+   header{
+      height: 1480px;
+   }
+   .main{
+      height: 2200px;
+   }
+   .parent-a{
+      margin-top: 650px;
+   }
+   .parent-c{
+      margin-top: 240px;
+   }
+   .child1a img{
+      padding: 0;
+      
+   }
+   .imp{
+      height:1340px;
+   }
+   .container{
+      height: 1450px;
+   }
+   .heading h1, .heading2 h1{
+      padding-left: 50px;
+   }
+   .para{
+      margin-top: 10px;
+      height: 580px;
+   }
+   .heading h1, .heading2 h1 {
+      padding-left: 50px;
+      font-size: 50px;
+   }
+   .heading2 p{
+      padding-left: 20px;
+   }
+   .end h1{
+      padding: 10px;
+   }
+  }
+  @media(max-width:400px){
+   header{
+      height: 1550px;
+   }
+   .build{
+      height: 650px;
+   }
+  }
+
+  @media(max-width:360px){
+   header{
+      height: 1630px;
+   }
+   .para{
+      height: 650px;
+   }
+   .build{
+      height: 800px;
+   }
+  }
+  @media(max-width:340px){
+   header{
+      height: 1720px;
+   }
+   .child2b img{
+      margin-left: 0;
+   }
+   .para{
+      height: 720px;
+   }
+  } 
